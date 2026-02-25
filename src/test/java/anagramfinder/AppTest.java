@@ -1,7 +1,6 @@
-package no.protector;
+package anagramfinder;
 
 import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
