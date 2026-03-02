@@ -33,28 +33,7 @@
 - **File Handling**: The program uses `FileReaderService` to read the input file and handle edge cases such as missing or empty files.
 
 ## Project Structure
-anagram-finder/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── anagramfinder/
-│   │   │        ├── App.java
-│   │   │        ├── AnagramService.java         # Interface for anagram services
-│   │   │        ├── AnagramServiceSorting.java  # Sorting-based anagram service implementation
-│   │   │        ├── AnagramServiceHashing.java  # Hashing-based anagram service implementation
-│   │   │        └── FileReaderService.java      # File reading service
-│   │   └── resources/
-│   │        └── words-utf8.txt                 # Input file containing the words
-│   └── test/
-│       └── java/
-│            └── anagramfinder/
-│                 └── AnagramServiceSortingTest.java  # Tests for sorting implementation
-│                 └── AnagramServiceHashingTest.java  # Tests for hashing implementation
-│                 └── FileReaderServiceTest.java      # Tests for file reading
-├── pom.xml
-└── README.md
-└── AI_USAGE.md
+<img width="726" height="443" alt="Skjermbilde 2026-03-02 kl  04 46 03" src="https://github.com/user-attachments/assets/561092b5-462d-413a-908e-05d4847d8d43" />
 
 ## How to Run the Program
 
