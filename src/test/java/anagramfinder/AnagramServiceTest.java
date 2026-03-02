@@ -10,7 +10,7 @@ public class AnagramServiceTest {
 
     @Test
     public void groupsWordsWithSameLetters() {
-        AnagramService service = new AnagramService();
+        AnagramServiceSorting service = new AnagramServiceSorting();
 
         List<List<String>> groups = service.findAnagramGroups(List.of(
                 "akte", "teak", "kate", "abc", "cba", "alone"
