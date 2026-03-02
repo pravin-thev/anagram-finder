@@ -1042,25 +1042,7 @@ The program will read the words-utf8.txt file (ensure the file is in the src/mai
 
 
 ## 3. Project Structure
-anagram-finder/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── anagramfinder/
-│   │   │        ├── App.java
-│   │   │        └── AnagramService.java
-│   │   └── resources/
-│   │        └── words-utf8.txt
-│   └── test/
-│       └── java/
-│            └── anagramfinder/
-│                 └── AnagramServiceTest.java
-│
-├── pom.xml
-├── README.md
-├── AI_USAGE.md
-└── .gitignore
+<img width="792" height="382" alt="Skjermbilde 2026-03-02 kl  04 47 54" src="https://github.com/user-attachments/assets/b27c9da1-62b8-479b-b85e-074ce3321042" />
 App.java: Main entry point that reads the input file and invokes the AnagramService to process the words.
 AnagramService.java: Contains the logic for finding anagram groups by sorting word letters and grouping them.
 words-utf8.txt: Input file containing words (one word per line) to be processed.
@@ -1109,25 +1091,8 @@ mvn clean compile exec:java
 This will read the words-utf8.txt file (ensure the file is in the src/main/resources directory) and output the anagram groups to the console.
 3. Project Structure
 The project is organized as follows:
-anagram-finder/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── anagramfinder/
-│   │   │        ├── App.java         # Main entry point to invoke the program
-│   │   │        └── AnagramService.java  # Logic for identifying and grouping anagrams
-│   │   └── resources/
-│   │        └── words-utf8.txt      # Input file containing the words
-│   └── test/
-│       └── java/
-│            └── anagramfinder/
-│                 └── AnagramServiceTest.java  # Unit tests for the anagram service
-│
-├── pom.xml                      # Maven configuration file
-├── README.md                    # Project documentation
-├── AI_USAGE.md                  # Documentation of AI usage (for development)
-└── .gitignore                   # Git ignore file for unnecessary files
+<img width="664" height="392" alt="Skjermbilde 2026-03-02 kl  04 48 19" src="https://github.com/user-attachments/assets/1eb79c76-67ca-4f21-a92f-afad44716f1d" />
+
 4. Files in the Project
 App.java: Main entry point of the program. It reads the input file and invokes the AnagramService to process the words.
 AnagramService.java: Contains the logic for finding anagram groups by sorting the letters of the words and grouping them.
